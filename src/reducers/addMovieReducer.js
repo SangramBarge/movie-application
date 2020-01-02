@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';   
 
-const addMovieReducer = (state=0, action) => {
+const initialState = [{name:"inception",price : "$25"}, {name:"game of thrones",price : "$35"}];
+const addMovieReducer = (state=initialState, action) => {
 
     switch(action.type) {
         case  'ADD':
-            return state +=1 ;
+            return initialState ;
         default:
-            return state;
-            console.log(state)
+            return initialState;
+            console.log(initialState)
     } 
 };
 
