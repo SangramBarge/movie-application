@@ -1,7 +1,9 @@
-export const addMovie =() =>{
+export const addMovie =(moviename, movieprice) =>{
 
     return {
-        type: "ADD"
+        
+        type: "ADD",
+        payload: [{moviename,movieprice}]
     };
 }
 

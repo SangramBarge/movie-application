@@ -5,7 +5,7 @@ const ViewMovies =()  =>{
     const latestMovie = useSelector(state => state.addMovieReducer) 
        return (
       <div className="App">
-          {latestMovie.map(items =>  <li>{items.name}</li>)};
+          {latestMovie.map(items =>  <div><li>{items.name}</li><li>{items.price}</li></div>)}
       </div>
     );
   } 

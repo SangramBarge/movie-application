@@ -8,7 +8,6 @@ import { addMovie, deleteMovie, searchMovie }  from './actions'
 
 function App() {
   const latestMovie = useSelector(state => state.addMovieReducer) 
-  const dispatch = useDispatch(); 
      return (
     <div className="App">
       <h1>Movies - </h1>
