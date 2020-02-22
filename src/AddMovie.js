@@ -30,5 +30,3 @@ const AddMovie =()  =>{
   } 
   
   export default AddMovie;
-
-  //{ ()=> dispatch(addMovie())}

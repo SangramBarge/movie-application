@@ -6,7 +6,7 @@ const ViewMovies =()  =>{
     console.log(latestMovie)
        return (
       <div className="App">
-          {latestMovie.map(items =>  <div><li>{items.name}</li><li>{items.price}</li></div>)}
+          {latestMovie.map(items =>  <div><li>{items.name}</li><li>{items.price}</li><li>{items.id}</li></div>)}
       </div>
     );
   } 
